@@ -1,0 +1,7 @@
+此文件夹中都是特征提取代码，可以通过序列得到特征文件
+其中Main为运行程序，如：
+ACP_CSV_Main.java可以得到csv格式的ACPred-FL文中使用的特征文件
+PEP_Main.java可以得到arff格式的PEPred-Suite文中使用的特征文件
+Fuse_Main.java以得到arff格式的ACPred-Fuse文中使用的特征文件
+也可以改动Main文件得到单一的特征文件，特征提取方式与文件名一致，如METH_188D.java就是188D特征提取方法
+其中Postprocessing_400D.java是针对99服务器中部分特征提取方式最后类别都为Poisive的特征提取代码进行优化
