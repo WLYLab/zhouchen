@@ -1,0 +1,11 @@
+此文件夹中是是对特征文件进一步进行整理,功能与名字相同,针对不同文件可能需要改动代码
+如
+seq_to_fasta.java就是将序列文件转化成fasta格式(csv_to_arff.java、File_To_Zip.java相似)
+generatearff.java就是将多个arff文件合成为一个arff文件(generatearff.java)
+Sample_Frequency.java可以计算序列数据的长度分布状况
+Separation_posneg.java可以将序列数据的正反例分开成两个文件
+Read_WekaResult.java可以读取多个在java中调用weka训练的结果，统计并形成一个csv结果文件
+Read_py_excel_result.java可以读取多个在python中训练的结果，统计并形成一个csv结果文件
+MRMR_ReSort.java是根据mRMR程序的结果文件FT.mrmrout的得分，使用SFS的排序方式形成新的特征文件
+K_foldcross_weka.java、Train_arff.java、、Train_FT.java、？Train？.java、RF.py等为训练代码
+IndepTest.java、？Train？.java等为独立测试代码
